@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    background-image: url('https://imgs.search.brave.com/pZE2IYDixkIpVOx_VFtE_rm_6cwSuTkljwTGzDpV7WQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE1/MjEzOTQ4OC9waG90/by9hLWNvbXB1dGVy/LWRlc2staW4tYS1t/b2Rlcm4tY28td29y/a2luZy1zcGFjZS1m/ZWF0dXJlLWEtd2hp/dGUtc2NyZWVuLWNv/bXB1dGVyLW1vY2t1/cC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9R2c3SWlJUWIw/b3FCLVBOcTU2enQt/X1RWZTA4WVB1ZjNk/OFpEZndfRGRZdz0');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: fantasy;
+    height: 1000px;
+}
+
+.menubar{
+background-color: green;
+text-align: center;
+}
+
+.menubar ul{
+    display:flex;
+    list-style: none;
+    color: aliceblue;
+}
+
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.menubar ul li a {
+   color: floralwhite;
+   text-decoration: none;
+}
+
+.active,.menubar ul li:hover {
+    background-color: rgb(30, 226, 16);
+    border-radius: 5px;
+}   
