@@ -15,30 +15,69 @@ body{
     height: 1000px;
 }
 
-.menubar{
+.menu-bar{
 background-color: green;
 text-align: center;
 }
 
-.menubar ul{
+.menu-bar ul{
     display:flex;
     list-style: none;
     color: aliceblue;
 }
 
-.menubar ul li{
+.menu-bar ul li{
     width: 120px;
     margin: 15px;
     padding: 15px;
     
 }
 
-.menubar ul li a {
+ .menu-bar ul li a {
    color: floralwhite;
    text-decoration: none;
 }
 
-.active,.menubar ul li:hover {
-    background-color: rgb(30, 226, 16);
+.active, .menu-bar ul li:hover {
+    background-color: rgb(70, 136, 222);
     border-radius: 5px;
-}   
+    align-items: center;
+}  
+
+.sub-menu-1:hover{
+    padding: 0px;
+    align-items: center;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.sub-menu-1{
+    display:none;
+}
+
+
+.menu-bar ul li ul :hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background:rgb(155, 183, 155);
+    margin-top: 15px;
+    margin-left: -15px ; 
+}
+
+.menu-bar ul li:hover ul
+{
+    display:block;
+    margin: 10px;
+    
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} 
